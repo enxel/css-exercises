@@ -12,6 +12,31 @@ img {
   font-weight: 900;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 52px;
+}
+
+.food {
+  /* Se comentó lo siguiente por que en normal flow ya está en vertical */
+  /*display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;*/
+  width: 200px;
+  text-align: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
